@@ -602,6 +602,20 @@
 			display: none;
 		}
 
+	.skill-icons {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: 40px;
+	}
+
+	.image i {
+		font-size: 100px;
+		color: white;
+		padding: 30px;
+	}
+
 /* Image */
 
 	.image {
