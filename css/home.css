@@ -92,6 +92,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Open Sans',
+    sans-serif;
 }
 
 #wrapper {
@@ -112,6 +114,7 @@ body {
     position: relative;
     width: 60%;
     padding-bottom: 90px;
+    color: #BFA885;
 }
 
 #logo img {
