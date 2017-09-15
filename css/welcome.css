@@ -87,7 +87,7 @@ img {
 body {
     color: #FFFFFF;
     /*background: #1d1d1d no-repeat center center fixed;*/
-    background: url('images/b1.jpg') no-repeat center center fixed;
+    background: url('../images/b.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
