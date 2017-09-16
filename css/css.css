@@ -1199,78 +1199,6 @@ hr {
     border: 0;
     border-top: 0px solid;
 }
-/*---------------------------------------------------------------*/
-/* contact-end*/
-/*---------------------------------------------------------------*/
-
-/*---------------------------------------------------------------*/
-/* 16. Google-maps*/
-/*---------------------------------------------------------------*/
-html, body, .row, .col-xs-6 { height: 65% }
-
-#map-canvas {
-    width:100%;
-    height:40%;
-}
-/*---------------------------------------------------------------*/
-/*  Google-maps-end*/
-/*---------------------------------------------------------------*/
-
-/*---------------------------------------------------------------*/
-/* 17. subscribe */
-/*---------------------------------------------------------------*/
-#subscribe {
-    background-color: #f8f6f5;
-}
-
-.subs {
-    text-align: center;
-    margin-top: 35px;
-    margin-bottom: 35px;
-}
-
-.subs h2 {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 7px;
-    margin-bottom: 20px;
-}
-
-#email {
-    width: 400px;
-    background-color: transparent;
-    margin-bottom: 25px;
-    border-top: transparent;
-    border-left: transparent;
-    border-right: transparent;
-    border-bottom: 2px solid #313131;
-    font-size: 14px;
-    display: inline;
-}
-
-.form-control {
-    padding-left: 0px;
-
-}
-
-.buttonSubscribe {
-    color: #313131;
-    background-color: transparent;
-    font-weight: 700;
-    font-size: 12px;
-    padding: 8px 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    height: 40px;
-    text-transform: uppercase;
-    display: inline-block;
-    border-color: transparent;
-}
-
-.buttonSubscribe:hover {
-    color: #486164;
-}
 
 .social-icon {
     display: flex;
@@ -1286,6 +1214,14 @@ html, body, .row, .col-xs-6 { height: 65% }
 
 #contactEmail {
     background-image: url('../images/social-icons/email.png');
+}
+
+.contact-icon, .linkedin-icon, .github-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    list-style: none;
 }
 
 #contactLinkedIn {
@@ -1325,6 +1261,10 @@ html, body, .row, .col-xs-6 { height: 65% }
     -o-transform: scale(1.2, 1.2);
     -ms-transform: scale(1.2, 1.2);
 }
+
+/*---------------------------------------------------------------*/
+/* contact-end*/
+/*---------------------------------------------------------------*/
 
 /*---------------------------------------------------------------*/
 /* 14 footer*/
