@@ -1272,51 +1272,27 @@ html, body, .row, .col-xs-6 { height: 65% }
     color: #486164;
 }
 
-
-/*---------------------------------------------------------------*/
-/* 14 footer*/
-/*---------------------------------------------------------------*/
-.footer {
-    height: 100px;
-    background-color: #486164;
-}
-
-.footer h4 {
-    color: #c1a26e;
-    text-align: right;
-    margin-top: -45px;
-    margin-right: 50px;
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 5px;
-}
-
-.footer-text {
-    position: relative;
-    text-align: right;
-}
-
 .social-icon {
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
-   align-content: center;
-   flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .social-icon li {
     padding: 40px;
 }
 
-#footerEmail {
+#contactEmail {
     background-image: url('../images/social-icons/email.png');
 }
 
-#footerLinkedIn {
+#contactLinkedIn {
     background-image: url('../images/social-icons/linkedin.png');
 }
 
-#footerGitHub {
+#contactGitHub {
     background-image: url('../images/social-icons/github.png');
 }
 
@@ -1340,16 +1316,37 @@ html, body, .row, .col-xs-6 { height: 65% }
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
-
 }
 
 .icon a:hover {
     opacity: 0.9;
-    -webkit-transform: scale(1.2,1.2);
-    -moz-transform: scale(1.2,1.2);
-    -o-transform: scale(1.2,1.2);
-    -ms-transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
 }
+
+/*---------------------------------------------------------------*/
+/* 14 footer*/
+/*---------------------------------------------------------------*/
+.footer {
+    height: 100px;
+    background-color: #486164;
+}
+
+.footer h4 {
+    color: #c1a26e;
+    text-align: center;
+    margin-top: 45px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.footer-text {
+    text-align: center;
+}
+
 /*---------------------------------------------------------------*/
 /* footer-end*/
 /*---------------------------------------------------------------*/
